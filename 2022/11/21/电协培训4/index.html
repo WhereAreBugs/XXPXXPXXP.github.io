@@ -1,0 +1,269 @@
+<!DOCTYPE html><html lang="zh_CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>电协培训4 | CAT-XXP的blog</title><meta name="author" content="catxxp"><meta name="copyright" content="catxxp"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="场效应管基本知识简介场效应管是利用电场效应来控制半导体中电流的一种半导体器件 分类 结型场效应管 J-FET  金属-氧化物-半导体场效应管 MOS-FET  由于MOSFET 比JFET有更高的输入阻抗，并且功耗低和集成度高，被广泛应用到大规模集成电路中。    三极管（BJT）与场效应管（FET）的比较 FET是电控器件，它通过Ugs（栅-源电压）来控制Id（漏极电流）BJT是流控器件，它通过">
+<meta property="og:type" content="article">
+<meta property="og:title" content="电协培训4">
+<meta property="og:url" content="https://blog.catxxp123.top/2022/11/21/%E7%94%B5%E5%8D%8F%E5%9F%B9%E8%AE%AD4/index.html">
+<meta property="og:site_name" content="CAT-XXP的blog">
+<meta property="og:description" content="场效应管基本知识简介场效应管是利用电场效应来控制半导体中电流的一种半导体器件 分类 结型场效应管 J-FET  金属-氧化物-半导体场效应管 MOS-FET  由于MOSFET 比JFET有更高的输入阻抗，并且功耗低和集成度高，被广泛应用到大规模集成电路中。    三极管（BJT）与场效应管（FET）的比较 FET是电控器件，它通过Ugs（栅-源电压）来控制Id（漏极电流）BJT是流控器件，它通过">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG">
+<meta property="article:published_time" content="2022-11-21T04:04:59.000Z">
+<meta property="article:modified_time" content="2022-11-21T04:17:33.936Z">
+<meta property="article:author" content="catxxp">
+<meta property="article:tag" content="硬件">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog.catxxp123.top/2022/11/21/%E7%94%B5%E5%8D%8F%E5%9F%B9%E8%AE%AD4/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: {"limitDay":500,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '电协培训4',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-21 12:17:33'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/%E9%92%9F%E7%A6%BB.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">CAT-XXP的blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">电协培训4</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-11-21T04:04:59.000Z" title="Created 2022-11-21 12:04:59">2022-11-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-11-21T04:17:33.936Z" title="Updated 2022-11-21 12:17:33">2022-11-21</time></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="场效应管基本知识"><a href="#场效应管基本知识" class="headerlink" title="场效应管基本知识"></a>场效应管基本知识</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>场效应管是利用电场效应来控制半导体中电流的一种半导体器件</p>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ol>
+<li><p>结型场效应管 J-FET</p>
+</li>
+<li><p>金属-氧化物-半导体场效应管 MOS-FET</p>
+<blockquote>
+<p>由于MOSFET 比JFET有更高的输入阻抗，并且功耗低和集成度高，被广泛应用到大规模集成电路中。</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="三极管（BJT）与场效应管（FET）的比较"><a href="#三极管（BJT）与场效应管（FET）的比较" class="headerlink" title="三极管（BJT）与场效应管（FET）的比较"></a>三极管（BJT）与场效应管（FET）的比较</h3><ol>
+<li><p>FET是电控器件，它通过Ugs（栅-源电压）来控制Id（漏极电流）<br>BJT是流控器件，它通过Ib（基极电流）来控制Ic（集电极电流）</p>
+</li>
+<li><p>FET是利用多数载流子导电，它的温度稳定性较好,称为单极型器件，而BJT有多数载流子，也利用少数载流子导电，被称之为双极型器件。</p>
+</li>
+<li><p>FET组成的放大电路的电压放大系数要小于BJT组成放大电路的电压放大系数</p>
+</li>
+<li><p>FET的控制输入端电流极小，因此它的输入电阻（107～1012Ω）很大。</p>
+</li>
+<li><p>FET的抗辐射能力强,且不存在杂乱运动的电子扩散引起的散粒噪声，所以噪声低。</p>
+</li>
+</ol>
+<h3 id="结型场效应管JFET"><a href="#结型场效应管JFET" class="headerlink" title="结型场效应管JFET"></a>结型场效应管JFET</h3><p>结型场效应管也有三个极。分别是：源极（S），栅极（G），漏极（D）</p>
+<p><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121120754745.png" alt="image-20221121120754745" style="zoom:33%;" /><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121120805390.png" alt="image-20221121120805390" style="zoom:25%;" /></p>
+<h3 id="绝缘栅型场效应管MOS"><a href="#绝缘栅型场效应管MOS" class="headerlink" title="绝缘栅型场效应管MOS"></a>绝缘栅型场效应管MOS</h3><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121120823694.png" alt="image-20221121120823694" style="zoom:50%;" />
+
+<p>​    场效应管有三个极：源极（s）、栅极（g）、漏极（d），对应于晶体管的e、b、c；有三个工作区域：截止区、恒流区、可变电阻区，对应于晶体管的截止区、放大区、饱和区。</p>
+<img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121120844597.png" alt="image-20221121120844597" style="zoom:33%;" />
+
+<h3 id="MOSFET转移特性"><a href="#MOSFET转移特性" class="headerlink" title="MOSFET转移特性"></a>MOSFET转移特性</h3><p>由于是绝缘栅极，栅极输入端基本没有电流，描述当漏源电压Uds为常数时，漏极电流Id与栅-源电压Ugs之间的函数关系，即![image-20221121120916291](&#x2F;Users&#x2F;cat&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20221121120916291.png)</p>
+<p>![image-20221121120925730](&#x2F;Users&#x2F;cat&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20221121120925730.png)</p>
+<h3 id="MOSFET输出特性"><a href="#MOSFET输出特性" class="headerlink" title="MOSFET输出特性"></a>MOSFET输出特性</h3><p>①截止区<br>当Ugs &lt; Uth时，导电沟道尚未形成，Id&#x3D;0，为截止工作状态，又称为夹断区。</p>
+<p>②可变电阻区(非饱和区)<br>左边部分称为可变电阻区，该区域类似于双极性晶体管的饱和区，当Uds&lt;Ugs-Uth 时，称导电沟道未夹断，Ugs-Uds &#x3D;Uth是预夹断的临界条件，据此可以在输出特性上画出预夹断轨迹，Ugs 越大，预夹断时的Uds值也越大。当ugs确定时，直线的斜率也被唯一确定，直线斜率的倒数为D-S间的等效电阻。因而在此区域中，可以通过改变Ugs的大小(即压控的方式)来改变漏源电阻的阻值，故称为可变电阻区。</p>
+<p>③饱和区(恒流、放大区)当Ugs&gt;Uth，且Uds&gt;Ugs-Uth，MOSFET进入饱和区，右边的区域。当Ugs 不变，Uds 增大时，Id仅略有增加，因而可以将Id近似为电压Ugs控制的电流源，故称该区域为恒流区。利用场效应管作为放大管时，应使其工作在该区域。 </p>
+<h3 id="MOS管的开关特性"><a href="#MOS管的开关特性" class="headerlink" title="MOS管的开关特性"></a>MOS管的开关特性</h3><p>选型参数：漏源电压（D、S两端承受的电压）、工作电流（经过MOS管的电路）、开启电压（让MOS管导通的G、S电压）、工作频率（最大的开关频率）。</p>
+<img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121042487.png" alt="image-20221121121042487" style="zoom:25%;" />
+
+<blockquote>
+<p>寄生二极管：防止VDD过压的情况下，烧坏mos管, 防止管子的源极和漏极反接时烧坏MOS管</p>
+</blockquote>
+<blockquote>
+<p>MOS管的开关条件:<br>N沟道—导通时 Ug&gt; Us,Ugs&gt; Ugs(th)时导通<br>P沟道—导通时 Ug&lt; Us,Ugs&lt; Ugs(th)时导通<br>总之，导通条件：**|Ugs|&gt;|Ugs(th)|**</p>
+</blockquote>
+<h2 id="逻辑门与触发器"><a href="#逻辑门与触发器" class="headerlink" title="逻辑门与触发器"></a>逻辑门与触发器</h2><h3 id="几种简单的逻辑门"><a href="#几种简单的逻辑门" class="headerlink" title="几种简单的逻辑门"></a>几种简单的逻辑门</h3><p>1.按逻辑功能的不同：与门、或门、非门、异或门、与非门、或非门、与或非门<br>2.按电路结构的不同：TTL集成门电路（输入端和输出端都用三极管的逻辑门电路）和CMOS集成门电路（用互补对称的MOS管构成的逻辑门电路）<br>3.按功能特点的不同：普通门（推拉式输出）、输出开路门、三态门、MOS传输门</p>
+<img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121154319.png" alt="image-20221121121154319" style="zoom:50%;" />
+
+<h3 id="RS触发器特性及作用"><a href="#RS触发器特性及作用" class="headerlink" title="RS触发器特性及作用"></a>RS触发器特性及作用</h3><h4 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h4><p>⑴有两个稳定状态(简称稳态)，正好用来表示逻辑0和1。<br>⑵在输入信号作用下，触发器的两个稳定状态可相互转换(称为状态的翻转)。输入信号消失后，新状态可长期保持下来，因此具有记忆功能，可存储二进制信息。一个触发器可存储1位二进制数码</p>
+<h4 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h4><p>触发器和门电路是构成数字电路的基本单元。<br>触发器有记忆功能，由它构成的电路在某时刻的输出不仅取决于该时刻的输入，还与电路原来状态有关。<br>门电路无记忆功能，由它构成的电路在某时刻的输出完全取决于该时刻的输入，与电路原来状态无关;</p>
+<h3 id="RS触发器真值表"><a href="#RS触发器真值表" class="headerlink" title="RS触发器真值表"></a>RS触发器真值表</h3><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121342567.png" alt="image-20221121121342567" style="zoom:50%;" />
+
+<img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121351179.png" alt="image-20221121121351179" style="zoom:50%;" />
+
+<img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121400336.png" alt="image-20221121121400336" style="zoom:50%;" />
+
+<blockquote>
+<p>(触发器次态与输入信号和电路原有状态之间关系的真值表)<br>次态指触发器在输入信号变化后的状态，用Q^n+1 表示。<br>现态指触发器在输入信号变化前的状态，用Q^n表示。</p>
+</blockquote>
+<h3 id="基本RS触发器的两种形式"><a href="#基本RS触发器的两种形式" class="headerlink" title="基本RS触发器的两种形式"></a>基本RS触发器的两种形式</h3><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121437659.png" alt="image-20221121121437659" style="zoom:50%;" />
+
+<blockquote>
+<p>输入高电平有效的是或非门组成的。<br>输入低电平有效的是与非门组成的。</p>
+</blockquote>
+<h2 id="NE555与文氏桥"><a href="#NE555与文氏桥" class="headerlink" title="NE555与文氏桥"></a>NE555与文氏桥</h2><h3 id="NE555简介"><a href="#NE555简介" class="headerlink" title="NE555简介"></a>NE555简介</h3><p>NE555 （Timer IC）为8脚时基集成电路，大约在1971年由Signetics Corporation发布，在当时是唯一非常快速且商业化的Timer IC。NE555体积小、重量轻、稳定可靠，操作电源范围大，输出端的供给电流能力强，计时精确度高，温度稳定度佳，且价格便宜。</p>
+<h3 id="NE555特点"><a href="#NE555特点" class="headerlink" title="NE555特点"></a>NE555特点</h3><ol>
+<li>只需简单的电阻器、电容器，即可完成特定的振荡延时作用。其延时范围极广，可由几微秒至几小时之久 。</li>
+<li>操作电源范围极大，可与TTL，CMOS等逻辑电路配合，也就是它的输出电平及输入触发电平，均能与这些系列逻辑电路的高、低电平匹配 。</li>
+<li>其输出端的供给电流大，可直接推动多种自动控制的负载 。</li>
+<li>它的计时精确度高、温度稳定度佳，且价格便宜</li>
+</ol>
+<h3 id="NE555原理图"><a href="#NE555原理图" class="headerlink" title="NE555原理图"></a>NE555原理图</h3><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121626487.png" alt="image-20221121121626487" style="zoom:50%;" />
+
+<h3 id="RC振荡分析"><a href="#RC振荡分析" class="headerlink" title="RC振荡分析"></a>RC振荡分析</h3><img src="/Users/cat/Library/Application Support/typora-user-images/image-20221121121659054.png" alt="image-20221121121659054" style="zoom:50%;" />
+
+<p>一般采用正反馈方法产生正弦波振荡，其方框图如左图所示。它由一个电压增益为A的放大电路和一个反馈系数为F的反馈网络构成。</p>
+<h4 id="电路"><a href="#电路" class="headerlink" title="电路"></a>电路</h4><p>![image-20221121121730209](&#x2F;Users&#x2F;cat&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20221121121730209.png)</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A1%AC%E4%BB%B6/">硬件</a></div><div class="post_share"><div class="social-share" data-image="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/11/20/%E7%B1%BB%E7%9A%84%E6%8A%BD%E8%B1%A1%E7%89%B9%E6%80%A7/"><img class="next-cover" src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">类的抽象特性</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2022/10/29/%E7%94%B5%E5%8D%8F%E5%9F%B9%E8%AE%AD1/" title="电协培训1"><img class="cover" src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-29</div><div class="title">电协培训1</div></div></a></div><div><a href="/2022/11/13/%E7%94%B5%E5%8D%8F%E5%9F%B9%E8%AE%AD3/" title="电协培训3--运算放大器"><img class="cover" src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-13</div><div class="title">电协培训3--运算放大器</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/%E9%92%9F%E7%A6%BB.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">catxxp</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/XXPXXPXXP" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%BA%E6%95%88%E5%BA%94%E7%AE%A1%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">场效应管基本知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-number">1.1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.2.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E6%9E%81%E7%AE%A1%EF%BC%88BJT%EF%BC%89%E4%B8%8E%E5%9C%BA%E6%95%88%E5%BA%94%E7%AE%A1%EF%BC%88FET%EF%BC%89%E7%9A%84%E6%AF%94%E8%BE%83"><span class="toc-number">1.3.</span> <span class="toc-text">三极管（BJT）与场效应管（FET）的比较</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E5%9E%8B%E5%9C%BA%E6%95%88%E5%BA%94%E7%AE%A1JFET"><span class="toc-number">1.4.</span> <span class="toc-text">结型场效应管JFET</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%9D%E7%BC%98%E6%A0%85%E5%9E%8B%E5%9C%BA%E6%95%88%E5%BA%94%E7%AE%A1MOS"><span class="toc-number">1.5.</span> <span class="toc-text">绝缘栅型场效应管MOS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MOSFET%E8%BD%AC%E7%A7%BB%E7%89%B9%E6%80%A7"><span class="toc-number">1.6.</span> <span class="toc-text">MOSFET转移特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MOSFET%E8%BE%93%E5%87%BA%E7%89%B9%E6%80%A7"><span class="toc-number">1.7.</span> <span class="toc-text">MOSFET输出特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MOS%E7%AE%A1%E7%9A%84%E5%BC%80%E5%85%B3%E7%89%B9%E6%80%A7"><span class="toc-number">1.8.</span> <span class="toc-text">MOS管的开关特性</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E9%97%A8%E4%B8%8E%E8%A7%A6%E5%8F%91%E5%99%A8"><span class="toc-number">2.</span> <span class="toc-text">逻辑门与触发器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%A0%E7%A7%8D%E7%AE%80%E5%8D%95%E7%9A%84%E9%80%BB%E8%BE%91%E9%97%A8"><span class="toc-number">2.1.</span> <span class="toc-text">几种简单的逻辑门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%89%B9%E6%80%A7%E5%8F%8A%E4%BD%9C%E7%94%A8"><span class="toc-number">2.2.</span> <span class="toc-text">RS触发器特性及作用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%89%B9%E6%80%A7"><span class="toc-number">2.2.1.</span> <span class="toc-text">特性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%9C%E7%94%A8"><span class="toc-number">2.2.2.</span> <span class="toc-text">作用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%9C%9F%E5%80%BC%E8%A1%A8"><span class="toc-number">2.3.</span> <span class="toc-text">RS触发器真值表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%ACRS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%BD%A2%E5%BC%8F"><span class="toc-number">2.4.</span> <span class="toc-text">基本RS触发器的两种形式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#NE555%E4%B8%8E%E6%96%87%E6%B0%8F%E6%A1%A5"><span class="toc-number">3.</span> <span class="toc-text">NE555与文氏桥</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#NE555%E7%AE%80%E4%BB%8B"><span class="toc-number">3.1.</span> <span class="toc-text">NE555简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#NE555%E7%89%B9%E7%82%B9"><span class="toc-number">3.2.</span> <span class="toc-text">NE555特点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#NE555%E5%8E%9F%E7%90%86%E5%9B%BE"><span class="toc-number">3.3.</span> <span class="toc-text">NE555原理图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RC%E6%8C%AF%E8%8D%A1%E5%88%86%E6%9E%90"><span class="toc-number">3.4.</span> <span class="toc-text">RC振荡分析</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%B5%E8%B7%AF"><span class="toc-number">3.4.1.</span> <span class="toc-text">电路</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/21/%E7%94%B5%E5%8D%8F%E5%9F%B9%E8%AE%AD4/" title="电协培训4"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="电协培训4"/></a><div class="content"><a class="title" href="/2022/11/21/%E7%94%B5%E5%8D%8F%E5%9F%B9%E8%AE%AD4/" title="电协培训4">电协培训4</a><time datetime="2022-11-21T04:04:59.000Z" title="Created 2022-11-21 12:04:59">2022-11-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/20/%E7%B1%BB%E7%9A%84%E6%8A%BD%E8%B1%A1%E7%89%B9%E6%80%A7/" title="类的抽象特性"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="类的抽象特性"/></a><div class="content"><a class="title" href="/2022/11/20/%E7%B1%BB%E7%9A%84%E6%8A%BD%E8%B1%A1%E7%89%B9%E6%80%A7/" title="类的抽象特性">类的抽象特性</a><time datetime="2022-11-20T12:28:14.000Z" title="Created 2022-11-20 20:28:14">2022-11-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/20/%E7%B1%BB%E7%BB%A7%E6%89%BF/" title="类继承"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="类继承"/></a><div class="content"><a class="title" href="/2022/11/20/%E7%B1%BB%E7%BB%A7%E6%89%BF/" title="类继承">类继承</a><time datetime="2022-11-20T11:45:16.000Z" title="Created 2022-11-20 19:45:16">2022-11-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/13/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/" title="内存管理"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="内存管理"/></a><div class="content"><a class="title" href="/2022/11/13/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/" title="内存管理">内存管理</a><time datetime="2022-11-13T11:29:32.000Z" title="Created 2022-11-13 19:29:32">2022-11-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/13/%E6%8C%87%E9%92%88%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E6%8C%87%E9%92%88%E7%AE%97%E6%9C%AF/" title="指针、数组和指针算术"><img src="https://picture-1300915322.cos.ap-chengdu.myqcloud.com/IMG_1154.JPG" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="指针、数组和指针算术"/></a><div class="content"><a class="title" href="/2022/11/13/%E6%8C%87%E9%92%88%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E6%8C%87%E9%92%88%E7%AE%97%E6%9C%AF/" title="指针、数组和指针算术">指针、数组和指针算术</a><time datetime="2022-11-13T07:03:49.000Z" title="Created 2022-11-13 15:03:49">2022-11-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By catxxp</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.2
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container:not\([display]\)').forEach(node => {
+            const target = node.parentNode
+            if (target.nodeName.toLowerCase() === 'li') {
+              target.parentNode.classList.add('has-jax')
+            } else {
+              target.classList.add('has-jax')
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script></div></body></html>
