@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhere_are_bugs=self.webpackChunkwhere_are_bugs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u535a\u5ba2\u66f4\u6362\u65b0\u6846\u67b6","permalink":"/blog/blog\u66f4\u6362\u65b0\u6846\u67b6","unlisted":false}]}')}}]);

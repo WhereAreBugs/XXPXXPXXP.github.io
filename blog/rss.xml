@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>WhereAreBugs' Home  Blog</title>
+        <link>https://blog.catxxp123.top/blog</link>
+        <description>WhereAreBugs' Home  Blog</description>
+        <lastBuildDate>Wed, 29 Nov 2023 12:00:01 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[博客更换新框架]]></title>
+            <link>https://blog.catxxp123.top/blog/blog更换新框架</link>
+            <guid>https://blog.catxxp123.top/blog/blog更换新框架</guid>
+            <pubDate>Wed, 29 Nov 2023 12:00:01 GMT</pubDate>
+            <description><![CDATA[公告]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="公告">公告<a href="https://blog.catxxp123.top/blog/blog%E6%9B%B4%E6%8D%A2%E6%96%B0%E6%A1%86%E6%9E%B6#%E5%85%AC%E5%91%8A" class="hash-link" aria-label="公告的直接链接" title="公告的直接链接">​</a></h2>
+<p>本站点博客已经迁移到一个全新的框架上。这个新框架将为我们提供更好的性能、更丰富的功能和更好的用户体验。</p>
+<p>在迁移过程中，我们将会做出一些调整和改进，以确保博客的顺利迁移和平稳运行。我们将会保留所有的博文内容，并且尽可能保持原有的布局和风格。</p>
+<p>在迁移完成后，您将会看到一些新的功能和界面改进。我们相信这些改进将会为您提供更好的阅读体验和更方便的交互。</p>
+<p>谢谢！</p>
+<p><em>WhereAreBugs</em></p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
